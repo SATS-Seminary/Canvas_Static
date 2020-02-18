@@ -1,0 +1,258 @@
+/* CSS Stylesheet */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover, a h5:hover {
+    text-decoration: none;
+    color: #bc8d16;
+}
+
+.learningMap {
+    padding: 30px 30px 10px 30px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overviewLabel {
+    background: #bc8d16;
+    color: #fff;
+    padding: 5px 0 5px 30px;
+    max-width: 50%;
+    border-radius: 0px 30px 30px 0;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.ho_container {
+    display: grid;
+    position:static;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #0d0d0d0d;
+    border-radius: 10px;
+}
+
+.lm_container {
+    display: grid;
+    position:static;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 10fr 1fr 10fr 1fr 10fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    padding: 10px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lmcell {
+    background: #fff;
+    text-align: center;
+    min-width: 180px;
+}
+
+.hocell {
+    text-align: center;
+}
+
+.unitName {
+    color: #7f5ba5;
+    padding-top: 5px;
+}
+
+.lm_activity {
+    color: #f36c52;
+    padding-top: 5px;
+}
+
+.lm_unitIcon {
+    max-width: 40%;
+    height: auto;
+    border: 4px solid #97d2b5;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+
+.lm_activityIcon {
+    max-width: 40%;
+    height: auto;
+    border: 4px dashed #7f58a5;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.hocell > img {
+    max-width: 40%;
+    height: auto;
+}
+
+.lmcell p {
+    line-height: 1.25em;
+}
+
+.lmflow {
+    display: inline-grid;
+    text-align: center;
+}
+
+.lmflow .lmcell {
+    min-width: 50px;
+    height: auto;
+}
+
+.lmflow .lmcell:nth-child(1) {
+    margin: 0 0 0 -30px;
+}
+
+.lmflow div:nth-child(2) {
+    margin-top: 70px;
+}
+
+.lmflow div:nth-child(3) {
+    margin-top: 80px;
+}
+
+.lmflow div img {
+    position: relative;
+    background: rgba(0,0,0,0);
+    border: none;
+    max-width: 400%;
+}
+
+.lmflow div:nth-child(2) {
+    transform: rotate(180deg);
+}
+
+#lm_flow1 .lmcell {
+    max-width: 470%;
+    min-width: 90px;
+    height: auto;
+    margin: 40px -70px 0 0;
+    transform: rotateY(180deg);
+}
+
+#lm_flow4 .lmcell{
+    max-width: 470%;
+    min-width: 90px;
+    height: auto;
+    margin: 30px 0 0 -80px;
+}
+
+#courseHomePage {
+    position: absolute;
+}
+
+#lm_start {
+    margin-left: -60px;
+    display: block;
+}
+
+#lm_start .lm_unitIcon {
+    box-shadow: 0px 0px 0px 3px #ffffff;
+    background: #ffffff;
+    z-index: 1;
+    max-width: 30%;
+}
+
+#lm_start::before {
+    content: "Start";
+    color: #fff;
+    background: #97d2b5;
+    padding: 5px 25px 5px 10px;
+    border-radius: 30px 0 0 30px;
+    margin: 10px 0px 0 0;
+}
+
+#lm_finish {
+    margin-right: -90px;
+    display: block;
+}
+
+#lm_finish .lm_activityIcon {
+    box-shadow: 0px 0px 0px 5px #ffffff;
+    background: #ffffff;
+    max-width: 30%;
+    z-index: 1;
+}
+
+#lm_finish::before {
+    content: "Finish";
+    color: #fff;
+    background: #7f58a5;
+    padding: 5px 20px 5px 55px;
+    border-radius: 0 30px 30px 0;
+    margin: 30px 60px 0 -85px;
+    float:right;
+}
+
+#homeHeader {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#hh_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 300px 60px;
+}
+
+.hh_courseCode {
+    background: #bc8d16;
+    box-shadow: 1px 1px 5px #888888;
+    padding: 20px 50px 0 40px;
+}
+
+.hh_courseCode > h2 {
+    transform: rotate(-90deg);
+    letter-spacing: .250em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#hh_graphic {
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 5px #888888;
+    object-fit: cover;
+}
+
+#hh_courseTitle {
+    padding: 10px 10px 10px 30px;
+    background: #0d553f;
+    color: #fff;
+    border-radius: 0 0 30px 0;
+    box-shadow: 2px 2px 5px #888888;
+    text-transform: uppercase;
+}
+
+#homeOverview {
+    padding: 20px;
+}
+
+#homeDescription {
+}
+
+#homeDescription p {
+    text-align: justify;
+}
