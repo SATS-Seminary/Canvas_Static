@@ -65,7 +65,7 @@ a:hover, a h5:hover {
 .lmcell {
     background: #fff;
     text-align: center;
-    min-width: 180px;
+    min-width: 160px;
 }
 
 .hocell {
@@ -142,18 +142,18 @@ a:hover, a h5:hover {
 }
 
 #lm_flow1 .lmcell {
-    max-width: 470%;
-    min-width: 90px;
+    max-width: 80px;
+    min-width: 8vmin;
     height: auto;
-    margin: 40px -70px 0 0;
+    margin: 3vmin -70px 0 0;
     transform: rotateY(180deg);
 }
 
 #lm_flow4 .lmcell{
-    max-width: 470%;
-    min-width: 90px;
+    max-width: 80px;
+    min-width: 8vmin;
     height: auto;
-    margin: 30px 0 0 -80px;
+    margin: 3vmin 0 0 -70px;
 }
 
 #courseHomePage {
@@ -263,5 +263,5 @@ a:hover, a h5:hover {
 }
 
 #courseHomePage {
-    width: 95vw;
+    width: 95%;
 }
