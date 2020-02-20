@@ -52,11 +52,11 @@ a:hover, a h5:hover {
 .lm_container {
     display: grid;
     position:static;
-    grid-gap: 5px;
-    grid-template-columns: 1fr 10fr 1fr 10fr 1fr 10fr 1fr;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 12fr 1fr 12fr 1fr 12fr 1fr;
     grid-template-rows: 250px 250px 250px;
     padding: 10px;
-    max-width: 90vmax;
+    max-width: 50vmax;
     margin-right: auto;
     margin-left: auto;
     margin-top: 3vh;
@@ -65,7 +65,7 @@ a:hover, a h5:hover {
 .lmcell {
     background: #fff;
     text-align: center;
-    min-width: 160px;
+    min-width: 150px;
 }
 
 .hocell {
@@ -113,10 +113,11 @@ a:hover, a h5:hover {
     text-align: center;
 }
 
-.lmflow .lmcell {
-    min-width: 50px;
+.lmflow div, .lmflow .lmcell {
+    min-width: 15px;
     height: auto;
 }
+
 
 .lmflow .lmcell:nth-child(1) {
     margin: 0 0 0 -30px;
