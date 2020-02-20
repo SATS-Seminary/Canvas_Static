@@ -58,7 +58,7 @@ a:hover, a h5:hover {
     padding: 10px;
     max-width: 50vmax;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 2vmax;
     margin-top: 3vh;
 }
 
