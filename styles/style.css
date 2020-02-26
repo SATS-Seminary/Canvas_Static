@@ -104,9 +104,9 @@ a:hover, a h5:hover {
 }
 
 .hocell > img {
-    width: 80%;
-    min-width: 80px;
-    max-width: 100px;
+    width: 60%;
+    min-width: 60px;
+    max-width: 80px;
     height: auto;
     object-fit: cover;
     object-position:  10% 10%;
