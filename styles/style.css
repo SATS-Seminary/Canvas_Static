@@ -20,7 +20,7 @@ a:hover, a h5:hover {
 
 .learningMap {
     padding: 30px 30px 10px 30px;
-    max-width: 90vmin;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2vh;
@@ -38,9 +38,9 @@ a:hover, a h5:hover {
 .ho_container {
     display: grid;
     position:static;
-    grid-gap: 30px;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 100px 30px;
     padding: 20px;
     max-width: 80vw;
     margin-right: auto;
@@ -66,10 +66,15 @@ a:hover, a h5:hover {
     background: #fff;
     text-align: center;
     min-width: 150px;
+    overflow: hidden;
 }
 
 .hocell {
+    position: relative;
     text-align: center;
+    overflow: hidden;
+    width: 100%;
+    min-height: 50px;
 }
 
 .unitName {
@@ -86,22 +91,31 @@ a:hover, a h5:hover {
     max-width: 40%;
     height: auto;
     border: 4px solid #97d2b5;
-    border-radius: 100px;
-    padding: 5px;
+    border-radius: 50%;
+    object-fit: cover;
 }
-
 
 .lm_activityIcon {
     max-width: 40%;
     height: auto;
     border: 4px dashed #7f58a5;
-    border-radius: 100px;
-    padding: 5px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .hocell > img {
-    max-width: 40%;
+    width: 80%;
+    min-width: 80px;
+    max-width: 100px;
     height: auto;
+    object-fit: cover;
+    object-position:  10% 10%;
+    margin: 10px 0 0 0;
+}
+
+.lmRow .unitName h6 {
+    text-align: center;
+    margin-top: 1vw;
 }
 
 .lmcell p {
@@ -254,7 +268,7 @@ a:hover, a h5:hover {
 }
 
 #homeNav {
-    max-width: 80vmin;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
