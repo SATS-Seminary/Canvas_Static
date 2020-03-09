@@ -224,6 +224,10 @@ a:hover, a h5:hover {
     padding: 20px 20px 20px 20px;
 }
 
+#homeHeader_sm {
+    display: none;
+}
+
 #hh_container {
     position: relative;
     display: grid;
