@@ -224,10 +224,6 @@ a:hover, a h5:hover {
     padding: 20px 20px 20px 20px;
 }
 
-#homeHeader_sm {
-    display: none;
-}
-
 #hh_container {
     position: relative;
     display: grid;
@@ -297,10 +293,6 @@ a:hover, a h5:hover {
 @media all AND (max-width: 699px) {
     #homeHeader {
         display: none;
-    }
-    
-    #homeHeader_sm {
-        display: block;
     }
     
     #homeOverview {
