@@ -50,7 +50,7 @@ a:hover, a h5:hover {
     position:static;
     grid-gap: 0px;
     grid-template-columns: 1fr 12fr 1fr 12fr 1fr 12fr 1fr;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 20vh 20vh 20vh;
     padding: 10px;
     max-width: 60vw;
     margin-right: auto;
@@ -277,7 +277,7 @@ a:hover, a h5:hover {
 #courseHomePage {
     width: 95%;
     min-width: 420px;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 @media all AND (min-width: 700px) {
@@ -297,7 +297,7 @@ a:hover, a h5:hover {
     
     #homeOverview {
         transform: scale(0.75);
-        margin-top: -140px;
+        margin-top: -80px;
     }
     
     .learningMap {
