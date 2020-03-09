@@ -277,6 +277,7 @@ a:hover, a h5:hover {
 #courseHomePage {
     width: 95%;
     min-width: 420px;
+    min-height: 500px;
 }
 
 @media all AND (min-width: 700px) {
@@ -292,7 +293,11 @@ a:hover, a h5:hover {
 @media all AND (max-width: 699px) {
     #homeOverview .learningMap {
         max-width: 90vw;
-        margin-top: 30px;
+        margin-top: -30px;
         margin-left: -30px;
+    }
+    
+    .learningMap {
+        transform: scale(0.8);
     }
 }
