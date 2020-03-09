@@ -36,9 +36,9 @@ a:hover, a h5:hover {
     position:static;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 12vmax 1vmin;
+    grid-template-rows: 15vmax 1vmin;
     padding: 20px;
-    max-width: 80vw;
+    min-width: 400px;
     margin-right: auto;
     margin-left: auto;
     background: #f1f1f1;
