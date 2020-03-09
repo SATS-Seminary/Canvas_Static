@@ -36,7 +36,7 @@ a:hover, a h5:hover {
     position:static;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 12vmax 6vmin;
+    grid-template-rows: 12vmax 1vmin;
     padding: 20px;
     max-width: 80vw;
     margin-right: auto;
@@ -291,13 +291,15 @@ a:hover, a h5:hover {
 }
 
 @media all AND (max-width: 699px) {
-    #homeOverview .learningMap {
-        max-width: 90vw;
-        margin-top: -30px;
-        margin-left: -30px;
+    #homeOverview {
+        transform: scale(0.8);
+        margin-top: -120px;
     }
     
     .learningMap {
-        transform: scale(0.8);
+        margin-top: 20px;
+        margin-left: -60px;
     }
+    
+    
 }
