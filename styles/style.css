@@ -292,18 +292,21 @@ a:hover, a h5:hover {
 
 @media all AND (max-width: 699px) {
     #homeHeader {
-        transform: scale(0.8);
-        margin-top: -30px;
+        display: none;
+    }
+    
+    #homeHeader_sm {
+        display: block;
     }
     
     #homeOverview {
         transform: scale(0.75);
-        margin-top: -170px;
+        margin-top: -140px;
     }
     
     .learningMap {
         margin-top: 20px;
-        margin-left: -80px;
+        margin-left: -90px;
     }
     
     
