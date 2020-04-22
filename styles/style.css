@@ -228,7 +228,7 @@ a:hover, a h5:hover {
     position: relative;
     display: grid;
     grid-template-columns: 80px 1fr;
-    grid-template-rows: 27vmin 7vmin;
+    grid-template-rows: 27vw 7vw;
 }
 
 .hh_courseCode {
